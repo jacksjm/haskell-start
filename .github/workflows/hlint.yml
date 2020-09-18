@@ -13,5 +13,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install lint
         uses: domdere/haskell-lint-action@v1.0.2
-      - name: Run lint
-        run: hlinter run
+        with:
+          secrets: GITHUB_TOKEN
