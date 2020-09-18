@@ -1,9 +1,9 @@
-nomes :: ([Char], [Char], [Char])
+nomes :: (String, String, String)
 nomes = ("Joao", "Maria", "Jose")
 
-select_first :: (a, b, c) -> a
-select_first (x, _, _) = x
-select_second :: (a, b, c) -> b
-select_second (_, y, _) = y
-select_third :: (a, b, c) -> c
-select_third (_, _, z) = z
+selectFirst :: (a, b, c) -> a
+selectFirst (x, _, _) = x
+selectSecond :: (a, b, c) -> b
+selectSecond (_, y, _) = y
+selectThird :: (a, b, c) -> c
+selectThird (_, _, z) = z

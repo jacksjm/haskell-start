@@ -6,9 +6,9 @@ type Pessoa = (Name, Age, Language)
 pessoa :: Pessoa
 pessoa = ("Joao", 25, "Portugues")
 
-person_first :: (a, b, c) -> a
-person_first (name, _, _) = name
-person_second :: (a, b, c) -> b
-person_second (_, age, _) = age
-person_third :: (a, b, c) -> c
-person_third (_, _, language) = language
+personFirst :: (a, b, c) -> a
+personFirst (name, _, _) = name
+personSecond :: (a, b, c) -> b
+personSecond (_, age, _) = age
+personThird :: (a, b, c) -> c
+personThird (_, _, language) = language

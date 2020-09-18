@@ -1,4 +1,4 @@
-verify_and :: Bool -> Bool -> Bool
-verify_and False _ = False
-verify_and _ False = False
-verify_and True True = True
+verifyAnd :: Bool -> Bool -> Bool
+verifyAnd False _ = False
+verifyAnd _ False = False
+verifyAnd True True = True

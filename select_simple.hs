@@ -1,8 +1,8 @@
-fruit :: ([Char], [Char])
+fruit :: (String, String)
 fruit = ("Apple", "Orange")
 
-set_first :: [Char]
-set_first = fst fruit
+setFirst :: String
+setFirst = fst fruit
 
-set_second :: [Char]
-set_second = snd fruit
+setSecond :: String
+setSecond = snd fruit

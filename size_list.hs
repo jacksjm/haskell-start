@@ -1,3 +1,3 @@
-size_list :: Num p => [a] -> p
-size_list [] = 0
-size_list (head:tail) = 1 + size_list tail
+sizeList :: Num p => [a] -> p
+sizeList [] = 0
+sizeList (head:tail) = 1 + foldr (\ head -> (+) 1) 0 tail
