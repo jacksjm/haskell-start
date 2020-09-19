@@ -1,0 +1,29 @@
+name        : Haskell Study
+version     : 0.0.1
+synopsis    : Start haskell study
+description : Start haskell study
+maintainer  : Jackson Machado
+github      : jacksjm/haskell-start
+category    : Development
+
+ghc-options: -Wall
+
+dependencies:
+  - base >= 4.9 && < 5
+  - protolude
+  - deepseq
+  - directory
+  - filepath
+  - text
+  - containers
+  - unordered-containers
+  - aeson
+  - pretty-simple
+  - hoogle
+  - hlint
+
+library:
+  source-dirs: src
+
+executable:
+  main: Main.hs
